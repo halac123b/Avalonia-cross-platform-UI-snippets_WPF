@@ -2,9 +2,9 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 
-namespace Learn_Avalonia
+namespace NP.Demos.BuiltInControls
 {
-    public partial class App : Application
+    public class App : Application
     {
         public override void Initialize()
         {

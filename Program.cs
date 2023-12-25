@@ -1,14 +1,12 @@
-﻿using Avalonia;
-using System;
+using Avalonia;
 
-namespace Learn_Avalonia
+namespace NP.Demos.BuiltInControls
 {
-    internal class Program
+    class Program
     {
         // Initialization code. Don't use any Avalonia, third-party APIs or any
         // SynchronizationContext-reliant code before AppMain is called: things aren't initialized
         // yet and stuff might break.
-        [STAThread]
         public static void Main(string[] args) => BuildAvaloniaApp()
             .StartWithClassicDesktopLifetime(args);
 
@@ -16,7 +14,6 @@ namespace Learn_Avalonia
         public static AppBuilder BuildAvaloniaApp()
             => AppBuilder.Configure<App>()
                 .UsePlatformDetect()
-                .WithInterFont()
                 .LogToTrace();
     }
 }
