@@ -1,4 +1,4 @@
-using Avalonia.Controls;
+﻿using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Markup.Xaml;
 
@@ -12,7 +12,7 @@ namespace Learn_Avalonia
 
             // Find obj by name in XAML
             var button = this.FindControl<Button>("CloseWindowButton");
-            // Add event click cho button
+            // Add event click cho button, tuy nhiên đây là phương án dở nhất để add event cho btn
             button.Click += Button_Click;
         }
 
