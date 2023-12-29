@@ -249,6 +249,7 @@
       </Grid.RowDefinitions>
       <TextBlock Text="Menu:"
                  Classes="h1"/>
+	  <!-- Menu: giống toolbar trên các app, các item cũng define giống ContextMenu -->
       <Menu Grid.Row="1">
         <MenuItem Header="FILE">
           <MenuItem Header="New"/>
